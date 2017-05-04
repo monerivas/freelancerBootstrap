@@ -20,6 +20,10 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+
+.mt-100{
+    margin-top: 100px;
+}
 /*-------Fin clases globales---------------------*/
 
 
@@ -29,12 +33,12 @@
     width: 100%;
     margin:  0 auto;
 }
-.row: before,.row:after{
+.row:before, .row:after{
     content: " ";
     display: table;
 }
 
-.row; after{
+.row:after{
     clear: both;
 }
 [class*=col-]{

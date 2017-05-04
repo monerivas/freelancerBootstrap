@@ -1,3 +1,52 @@
 /*
  * Estilos de tu proyecto
  */
+/*---Inicio Seccion NAV---------*/
+#links{
+   background-color: #2C3E50; 
+   color:white;
+   padding: 10px 10px 0px 10px;
+   position: fixed;
+   top:0;
+   left:0;
+   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.6em;
+ }
+.menu{
+  display:inline-block;
+  float:left;
+  margin-top:10px;
+  padding:10px;
+  list-style: none;
+  height: 100%;
+  text-align: center;
+  font-size: 0.5em;
+  vertical-align: middle;
+}
+.menu:hover{
+  background-color: #18BC9C ;
+}
+/*---Fin Seccion NAV---------*/
+
+
+/*---Inicio Seccion Bienvenida---------*/
+#seccionBienvenida{
+    background-color: #18BC9C;
+    color: white;
+}
+#seccionBienvenida .texto{
+    text-align: center;    
+}
+#seccionBienvenida h1{
+    font-size: 73px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#seccionBienvenida h2{
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+/*---Fin Seccion Bienvenida---------*/
