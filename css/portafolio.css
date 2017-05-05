@@ -1,0 +1,12 @@
+#portafolio {
+	font-size: 45px;
+}
+#portfolio h1{
+ font-family: "Montserrat";
+    text-align: center;
+    font-weight: 600;
+}
+.imgPortfolio {
+	width: 100%;
+	height: 100%;
+}
