@@ -34,6 +34,7 @@
 #seccionBienvenida{
     background-color: #18BC9C;
     color: white;
+    text-align: center;
 }
 #seccionBienvenida .texto{
     text-align: center;    
@@ -50,3 +51,31 @@
     text-align: center;
 }
 /*---Fin Seccion Bienvenida---------*/
+
+/*---Inicio Footer-----------------*/
+footer{
+    text-align: center;
+    color: #FFF;
+}
+.contacto{
+    padding: 70px;
+    background-color: #2C3E50;
+}
+.copy{
+    background-color: #233140;
+}
+.txtContacto{
+    margin-bottom: 30px;
+}
+.linkFooter{
+    color: #18BC9C;
+}
+
+.iconosFooter{
+    font-size: 70px;
+}
+
+
+
+
+
