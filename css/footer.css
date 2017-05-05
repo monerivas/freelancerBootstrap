@@ -1,0 +1,24 @@
+/*---Inicio Footer-----------------*/
+footer{
+    text-align: center;
+    color: #FFF;
+}
+.contacto{
+    padding: 70px;
+    background-color: #2C3E50;
+}
+.copy{
+    background-color: #233140;
+}
+.txtContacto{
+    margin-bottom: 30px;
+}
+.linkFooter{
+    color: #18BC9C;
+}
+
+.iconosFooter{
+    font-size: 45px;
+    margin: 10px;
+}
+/*---Fin Footer-----------------*/

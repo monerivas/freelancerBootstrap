@@ -1,0 +1,71 @@
+/*---Inicio Seccion Bienvenida---------*/
+#seccionBienvenida{
+    background-color: #18BC9C;
+    color: white;
+    text-align: center;
+}
+#seccionBienvenida .texto{
+    text-align: center;    
+}
+#seccionBienvenida h1{
+    font-size: 73px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#seccionBienvenida h2{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+/*-Estrella-*/
+hr {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+    color: white;
+}
+
+hr.star-light:after {
+    background-color: #18BC9C;
+    /* color: #fff; */
+}
+
+hr.star-light:after, hr.star-primary:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 2em;
+    padding: 0 .25em;
+}
+
+transition: opacity 1s ease-out;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+hr:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.1em;
+    font-size: 2em;
+    padding: 0 .25em;
+    background: #18bc9c;
+        top: -18px;
+    color: white;
+}
+
+/*-Estrella-*/
+
+/*---Fin Seccion Bienvenida---------*/
